@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="table.html">
+</head>
+<body>
+    <div class="position">
+        <h1>static position</h1>
+        <div class="relative">
+            <p>relative</p>
+            <style>
+                .relative {
+                position: absolute;
+                top: 50px;
+                left: 30px;
+            }
+            .page{
+                height:100vh;
+            }
+            .fixed{
+                position: fixed;
+                top: 10;
+                padding: 10px;
+                text-align: left;
+            }
+            .Sticky{
+                position:sticky;
+                top:10px;
+                left:100px;
+            }
+            </style>
+        </div>
+    </div>
+    <div class="page">
+        <p class="fixed">
+            fixed content
+        </p>
+    </div>
+    <div class="Sticky">
+        Sticky
+    </div>
+    <div class="page">
+        page 2
+    </div>
+    <div class="page">
+        page 3
+
+    </div>
+    
+</body>
+</html>
